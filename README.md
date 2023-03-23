@@ -1,10 +1,7 @@
 # BrowserInBrowser
-A web browser within an html script
-
-...for the soul purpous of this is to evade internet censorship
-(Idk if it works but it should)
-
+A full OS within an html script, hopefully.
+Use this to get arround cencoring apps and thing or just mess around
 
 Made by Goob-r, obviously
 
-Do not steal this
+You can use my code just please consider mentioning me in someway
