@@ -1,4 +1,4 @@
-# BrowserInBrowser
+# OperatingSystemInBrowser
 A full OS within an html script, hopefully.
 Use this to get arround cencoring apps and thing or just mess around
 
