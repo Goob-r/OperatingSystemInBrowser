@@ -5,4 +5,4 @@ if (elem.requestFullscreen) {
 } else if (elem.msRequestFullscreen) { /* IE11 */
   elem.msRequestFullscreen();
 }
-alert("funny");
+document.write("funny");
