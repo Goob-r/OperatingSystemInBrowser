@@ -5,4 +5,6 @@
 } else if (elem.msRequestFullscreen) {
   elem.msRequestFullscreen();
 }*/
-document.write("funny");
+const img = document.createElement("img");
+img.src = "icons/startUpIco.svg";
+document.body.appendChild(img);
