@@ -5,11 +5,11 @@
 } else if (elem.msRequestFullscreen) {
   elem.msRequestFullscreen();
 }*/
-const ico = 'icons/splashIco.svg';
+const ico = "system/icons/splashIco.svg";
 
 try {
   const img = document.createElement('img');
-  img.src = "icons/splashIco.svg";
+  img.src = ico;
   img.height = 100;
   img.width = 100;
   document.body.appendChild(img);
