@@ -7,9 +7,12 @@
 }*/
 const ico = 'icons/splashIco.svg';
 
-const img = document.createElement('img');
-img.src = ico;
-img.alt = "OSnB";
-img.height = 100;
-img.width = 100;
-document.appendChild(img);
+try {
+  const img = document.createElement('img');
+  img.src = "icons/splashIco.svg";
+  img.height = 100;
+  img.width = 100;
+  document.body.appendChild(img);
+} catch(err) {
+  document.write(err.message);
+}
