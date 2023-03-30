@@ -15,8 +15,7 @@ try {
   //img.src = "system/icons/splashIco.svg";
   img.src = "https://www.w3schools.com/css/img_lights.jpg";
   img.style.position = "absolute";
-  img.height = window.innerHeight;
-  img.width = window.innerHeight;
+  img.height = img.width = window.innerHeight;
   img.style.left = ((window.innerWidth / 2) - (img.width / 2)) + "px";
   img.style.top = ((window.innerHeight / 2) - (img.height / 2)) + "px";
   document.body.appendChild(img);
