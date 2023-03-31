@@ -12,22 +12,18 @@ try {
 
 try {
   const img = document.createElement('img');
+  const errorOutput = document.createElement('p');
   //img.src = "system/icons/splashIco.svg";
   img.src = "https://www.w3schools.com/css/img_lights.jpg";
-  img.style.position = "absolute";
-  img.height = window.innerHeight;
-  img.width = window.innerHeight;
+  errorOutput.position = img.style.position = "absolute";
+  img.height = img.width = window.innerHeight;
   img.style.left = ((window.innerWidth / 2) - (img.width / 2)) + "px";
   img.style.top = ((window.innerHeight / 2) - (img.height / 2)) + "px";
   document.body.appendChild(img);
   setInterval(() => {
     img.remove
   }, 3000);
-  
-  const errorOutput = document.createElement('p');
-  errorOutput.position = "absolute";
-  errorOutput.top = "0px";
-  errorOutput.left = "0px";
+  errorOutput.left = errorOutput.top = "0px";
   errorOutput.id = "errorOut";
 } catch(err) {
   document.write(err.message);
