@@ -1,4 +1,4 @@
-import taskbar from 'test.css';
+import taskbars from 'test.css';
 
 try {
  async function startUp() {
