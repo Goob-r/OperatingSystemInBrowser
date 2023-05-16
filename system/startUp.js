@@ -1,3 +1,5 @@
+import taskbar from 'test.css';
+
 try {
  async function startUp() {
    const img = document.createElement("img");
